@@ -6,6 +6,12 @@ public class Conta {
 	private double saldo;
 	private Cliente cliente;
 
+	public Conta(int numero, Cliente cliente, double saldo) {
+		this.numero = numero;
+		this.cliente = cliente;
+		this.saldo = saldo;
+	}
+	
 	public int getNumero() {
 		return numero;
 	}
